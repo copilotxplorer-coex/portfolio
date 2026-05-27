@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aisarayut K. | Web3 & AI Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- ===== CURSOR GLOW ===== -->
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-bracket">{</span> AK <span class="logo-bracket">}</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-grid"></div>
+        <div class="hero-content">
+            <div class="hero-badge" data-aos="fade-down">
+                <span class="badge-dot"></span> Available for opportunities
+            </div>
+            <h1 class="hero-title" data-aos="fade-up">
+                <span class="hero-greeting">Hello, I'm</span>
+                <span class="hero-name">Aisarayut K.</span>
+                <span class="hero-role" id="typedText"></span>
+                <span class="typed-cursor">|</span>
+            </h1>
+            <p class="hero-description" data-aos="fade-up" data-delay="200">
+                Building the future with <span class="text-gradient">Web3</span>, 
+                <span class="text-gradient">AI</span>, and 
+                <span class="text-gradient">Full-Stack</span> technologies.
+                Crafting innovative digital experiences from smart contracts to neural networks.
+            </p>
+            <div class="hero-actions" data-aos="fade-up" data-delay="400">
+                <a href="#projects" class="btn btn-primary">
+                    <i class="fas fa-rocket"></i> View Projects
+                </a>
+                <a href="#contact" class="btn btn-outline">
+                    <i class="fas fa-paper-plane"></i> Get In Touch
+                </a>
+            </div>
+            <div class="hero-stats" data-aos="fade-up" data-delay="600">
+                <div class="stat-item">
+                    <span class="stat-number" data-count="5">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="30">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">Projects Completed</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="7">0</span><span class="stat-suffix"></span>
+                    <span class="stat-label">Tech Stacks</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="mouse-wheel"></div>
+            </div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-user"></i> About Me</span>
+                <h2 class="section-title">Passionate Developer &<br><span class="text-gradient">Problem Solver</span></h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>I'm a full-stack developer specializing in <strong>Web3</strong>, <strong>Artificial Intelligence</strong>, and modern web/app development. With expertise spanning from blockchain smart contracts to machine learning models, I bridge the gap between cutting-edge technology and real-world applications.</p>
+                    <p>My tech journey covers building decentralized applications, training AI models, developing cross-platform apps with Unity, and creating scalable backend systems with Node.js and Python.</p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-cube"></i>
+                            <div>
+                                <h4>Web3 & Blockchain</h4>
+                                <p>Smart Contracts, DeFi, NFT, dApps</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-brain"></i>
+                            <div>
+                                <h4>AI & Machine Learning</h4>
+                                <p>LLM, Computer Vision, NLP</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-code"></i>
+                            <div>
+                                <h4>Full-Stack Dev</h4>
+                                <p>React, Node.js, Python, APIs</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-gamepad"></i>
+                            <div>
+                                <h4>Game & App Dev</h4>
+                                <p>Unity, Mobile Apps, Cross-platform</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-terminal">
+                    <div class="terminal">
+                        <div class="terminal-header">
+                            <div class="terminal-dots">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <span class="terminal-title">developer.json</span>
+                        </div>
+                        <div class="terminal-body">
+                            <pre><code>{
+  <span class="json-key">"name"</span>: <span class="json-str">"Aisarayut K."</span>,
+  <span class="json-key">"title"</span>: <span class="json-str">"Web3 & AI Developer"</span>,
+  <span class="json-key">"location"</span>: <span class="json-str">"Thailand 🇹🇭"</span>,
+  <span class="json-key">"skills"</span>: [
+    <span class="json-str">"Web3"</span>, <span class="json-str">"AI/ML"</span>,
+    <span class="json-str">"Node.js"</span>, <span class="json-str">"Python"</span>,
+    <span class="json-str">"Unity"</span>, <span class="json-str">"React"</span>
+  ],
+  <span class="json-key">"passion"</span>: <span class="json-str">"Building the future"</span>,
+  <span class="json-key">"available"</span>: <span class="json-bool">true</span>
+}</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS SECTION ===== -->
+    <section class="section section-dark" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-layers"></i> Tech Stack</span>
+                <h2 class="section-title">Skills & <span class="text-gradient">Technologies</span></h2>
+            </div>
+            <div class="skills-grid">
+                <!-- Web3 -->
+                <div class="skill-card" data-category="web3">
+                    <div class="skill-icon" style="--accent: #627EEA;">
+                        <i class="fab fa-ethereum"></i>
+                    </div>
+                    <h3>Web3 / Blockchain</h3>
+                    <div class="skill-tags">
+                        <span>Solidity</span><span>Ethers.js</span><span>Hardhat</span>
+                        <span>Smart Contracts</span><span>DeFi</span><span>NFT</span>
+                        <span>IPFS</span><span>Web3.js</span>
+                    </div>
+                    <div class="skill-bar"><div class="skill-progress" data-width="90"></div></div>
+                </div>
+                <!-- AI -->
+                <div class="skill-card" data-category="ai">
+                    <div class="skill-icon" style="--accent: #FF6F61;">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>AI / Machine Learning</h3>
+                    <div class="skill-tags">
+                        <span>TensorFlow</span><span>PyTorch</span><span>OpenAI</span>
+                        <span>LangChain</span><span>NLP</span><span>Computer Vision</span>
+                        <span>Hugging Face</span><span>RAG</span>
+                    </div>
+                    <div class="skill-bar"><div class="skill-progress" data-width="85"></div></div>
+                </div>
+                <!-- Node.js -->
+                <div class="skill-card" data-category="nodejs">
+                    <div class="skill-icon" style="--accent: #68A063;">
+                        <i class="fab fa-node-js"></i>
+                    </div>
+                    <h3>Node.js</h3>
+                    <div class="skill-tags">
+                        <span>Express</span><span>NestJS</span><span>Socket.io</span>
+                        <span>REST API</span><span>GraphQL</span><span>MongoDB</span>
+                        <span>PostgreSQL</span><span>Redis</span>
+                    </div>
+                    <div class="skill-bar"><div class="skill-progress" data-width="92"></div></div>
+                </div>
+                <!-- Python -->
+                <div class="skill-card" data-category="python">
+                    <div class="skill-icon" style="--accent: #3776AB;">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h3>Python</h3>
+                    <div class="skill-tags">
+                        <span>FastAPI</span><span>Django</span><span>Flask</span>
+                        <span>Pandas</span><span>NumPy</span><span>Selenium</span>
+                        <span>Scrapy</span><span>Automation</span>
+                    </div>
+                    <div class="skill-bar"><div class="skill-progress" data-width="88"></div></div>
+                </div>
+                <!-- Unity -->
+                <div class="skill-card" data-category="unity">
+                    <div class="skill-icon" style="--accent: #fff;">
+                        <i class="fab fa-unity"></i>
+                    </div>
+                    <h3>Unity / Game Dev</h3>
+                    <div class="skill-tags">
+                        <span>C#</span><span>3D/2D Games</span><span>AR/VR</span>
+                        <span>Shader</span><span>Multiplayer</span><span>Physics</span>
+                        <span>Animation</span><span>UI/UX</span>
+                    </div>
+                    <div class="skill-bar"><div class="skill-progress" data-width="80"></div></div>
+                </div>
+                <!-- Web & App -->
+                <div class="skill-card" data-category="webapp">
+                    <div class="skill-icon" style="--accent: #61DAFB;">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <h3>Website & App</h3>
+                    <div class="skill-tags">
+                        <span>React</span><span>Next.js</span><span>TypeScript</span>
+                        <span>React Native</span><span>Flutter</span><span>Tailwind</span>
+                        <span>Figma</span><span>PWA</span>
+                    </div>
+                    <div class="skill-bar"><div class="skill-progress" data-width="93"></div></div>
+                </div>
+                <!-- DevOps -->
+                <div class="skill-card" data-category="devops">
+                    <div class="skill-icon" style="--accent: #2496ED;">
+                        <i class="fab fa-docker"></i>
+                    </div>
+                    <h3>DevOps & Cloud</h3>
+                    <div class="skill-tags">
+                        <span>Docker</span><span>AWS</span><span>CI/CD</span>
+                        <span>GitHub Actions</span><span>Railway</span><span>Vercel</span>
+                        <span>Nginx</span><span>Linux</span>
+                    </div>
+                    <div class="skill-bar"><div class="skill-progress" data-width="82"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS SECTION ===== -->
+    <section class="section" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-folder-open"></i> Portfolio</span>
+                <h2 class="section-title">Featured <span class="text-gradient">Projects</span></h2>
+            </div>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web3">Web3</button>
+                <button class="filter-btn" data-filter="ai">AI</button>
+                <button class="filter-btn" data-filter="web">Web/App</button>
+                <button class="filter-btn" data-filter="game">Game</button>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-category="web3">
+                    <div class="project-image">
+                        <div class="project-placeholder" style="--bg: linear-gradient(135deg, #667eea, #764ba2);">
+                            <i class="fas fa-cube"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Web3 / DeFi</span>
+                        <h3>DeFi Yield Aggregator</h3>
+                        <p>Decentralized yield farming aggregator with auto-compounding strategies across multiple protocols.</p>
+                        <div class="project-tech">
+                            <span>Solidity</span><span>React</span><span>Ethers.js</span><span>Hardhat</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card" data-category="ai">
+                    <div class="project-image">
+                        <div class="project-placeholder" style="--bg: linear-gradient(135deg, #f093fb, #f5576c);">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">AI / NLP</span>
+                        <h3>AI Chat Assistant</h3>
+                        <p>Custom LLM-powered chatbot with RAG pipeline for enterprise knowledge base queries.</p>
+                        <div class="project-tech">
+                            <span>Python</span><span>LangChain</span><span>FastAPI</span><span>React</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="project-placeholder" style="--bg: linear-gradient(135deg, #4facfe, #00f2fe);">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Full-Stack</span>
+                        <h3>SaaS Dashboard Platform</h3>
+                        <p>Real-time analytics dashboard with role-based access, charts, and automated reporting.</p>
+                        <div class="project-tech">
+                            <span>Next.js</span><span>Node.js</span><span>PostgreSQL</span><span>Redis</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="project-card" data-category="game">
+                    <div class="project-image">
+                        <div class="project-placeholder" style="--bg: linear-gradient(135deg, #a8edea, #fed6e3);">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Unity / Game</span>
+                        <h3>Metaverse World Builder</h3>
+                        <p>3D metaverse environment with blockchain-based asset ownership and real-time multiplayer.</p>
+                        <div class="project-tech">
+                            <span>Unity</span><span>C#</span><span>Web3</span><span>Photon</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 5 -->
+                <div class="project-card" data-category="web3">
+                    <div class="project-image">
+                        <div class="project-placeholder" style="--bg: linear-gradient(135deg, #fbc2eb, #a6c1ee);">
+                            <i class="fas fa-image"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Web3 / NFT</span>
+                        <h3>NFT Marketplace</h3>
+                        <p>Full-featured NFT marketplace with minting, auctions, and royalty management system.</p>
+                        <div class="project-tech">
+                            <span>Solidity</span><span>Next.js</span><span>IPFS</span><span>TheGraph</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 6 -->
+                <div class="project-card" data-category="ai">
+                    <div class="project-image">
+                        <div class="project-placeholder" style="--bg: linear-gradient(135deg, #ffecd2, #fcb69f);">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">AI / Vision</span>
+                        <h3>Computer Vision QC System</h3>
+                        <p>Automated quality control system using computer vision for manufacturing defect detection.</p>
+                        <div class="project-tech">
+                            <span>Python</span><span>TensorFlow</span><span>OpenCV</span><span>FastAPI</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== EXPERIENCE SECTION ===== -->
+    <section class="section section-dark" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-briefcase"></i> Journey</span>
+                <h2 class="section-title">Work <span class="text-gradient">Experience</span></h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2024 — Present</div>
+                        <h3>Supervisor (Agt.) — Technology Division</h3>
+                        <p>Leading development team in Web3 integration and AI automation solutions. Managing cross-functional projects and driving technical innovation.</p>
+                        <div class="project-tech">
+                            <span>Leadership</span><span>Web3</span><span>AI</span><span>Project Management</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2022 — 2024</div>
+                        <h3>Full-Stack Developer</h3>
+                        <p>Developed scalable web applications and blockchain solutions. Built RESTful APIs, smart contracts, and real-time data pipelines.</p>
+                        <div class="project-tech">
+                            <span>Node.js</span><span>React</span><span>Solidity</span><span>Python</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2020 — 2022</div>
+                        <h3>Junior Developer & Game Developer</h3>
+                        <p>Started career building Unity games and mobile applications. Learned fundamentals of software architecture and agile methodologies.</p>
+                        <div class="project-tech">
+                            <span>Unity</span><span>C#</span><span>JavaScript</span><span>Flutter</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-envelope"></i> Contact</span>
+                <h2 class="section-title">Let's Work <span class="text-gradient">Together</span></h2>
+                <p class="section-subtitle">Have a project in mind? Let's discuss how we can bring your ideas to life.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:your.email@example.com">your.email@example.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Rayong, Thailand 🇹🇭</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Timezone</h4>
+                            <p>GMT+7 (ICT)</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://twitter.com/" class="social-link" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+                        <a href="https://discord.com/" class="social-link" aria-label="Discord"><i class="fab fa-discord"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder=" " required>
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder=" " required>
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" placeholder=" " required>
+                        <label for="subject">Subject</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder=" " required></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <a href="#hero" class="nav-logo">
+                    <span class="logo-bracket">{</span> AK <span class="logo-bracket">}</span>
+                </a>
+                <p>Designed & Built by Aisarayut K. — &copy; <span id="year"></span></p>
+                <p class="footer-tech">Made with <span class="heart">♥</span> using HTML, CSS & JavaScript</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
