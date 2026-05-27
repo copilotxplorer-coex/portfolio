@@ -893,3 +893,21 @@ body:hover .cursor-glow { opacity: 1; }
     .hero-actions { flex-direction: column; align-items: center; }
     .btn { width: 100%; justify-content: center; }
 }
+
+/* === PROFILE AVATAR === */
+.profile-avatar {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 32px;
+    border-radius: 50%;
+    padding: 4px;
+    background: var(--gradient);
+    animation: fadeInDown 0.8s ease;
+}
+.profile-avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--bg-primary);
+}
